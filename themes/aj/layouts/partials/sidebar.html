@@ -1,0 +1,35 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>{{ .Site.Title }}</h1>
+      <p class="lead">
+      {{ with .Site.Params.Description | safeHtml}} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+    </div>
+
+    <p>
+      <a href="{{ .Site.Params.LinkedInUrl }}"><i class="fa fa-linkedin-square"></i> {{ .Site.Params.LinkedInName }}</a>
+    </p>
+    <p>
+      <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}"><i class="fa fa-twitter-square"></i> {{ .Site.Params.TwitterUsername }}</a>
+    </p>
+    <p>
+      <a href="mailto:{{ .Site.Params.Mail }}"><i class="fa fa-envelope"></i> {{ .Site.Params.Mail }}</a>
+    </p>
+    <p>
+      <a href="{{ .Site.Params.AnotherWebsiteUrl }}"><i class="fa fa-laptop"></i> {{ .Site.Params.AnotherWebsiteName }}</a>
+    </p>
+
+
+    {{ if .Site.Params.ShowMenu }}
+      <ul class="sidebar-nav">
+        <li><a href="/">Home</a> </li>
+        {{ range .Site.Menus.main }}
+          <li><a href="{{.Url}}"> {{ .Name }} </a></li>
+        {{end}}
+      </ul>
+    {{ end }}
+
+    <p>{{ with .Site.Params.Copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+baseurl = "http://blogi.vaan.fi"
+languageCode = "fi-fi"
+title = "Antti vaan"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[params]
+  Description = " "
+  Copyright = "© 2015"
+  ShowMenu = false
+  TwitterUsername = "anttijarvinen"
+  LinkedInName = "Antti Järvinen"
+  LinkedInUrl = "https://fi.linkedin.com/in/anttijarvinen"
+  Mail = "antti@vaan.fi"
+  AnotherWebsiteUrl = "http://alupark.fi"
+  AnotherWebsiteName = "Alupark Oy"

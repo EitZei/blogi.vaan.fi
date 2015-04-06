@@ -1,0 +1,15 @@
+name = "aj"
+license = "MIT"
+description = "Theme for personal use. Derived from excellent Hyde theme."
+tags = ["blog", "company"]
+features = ["blog", ]
+
+[author]
+    name = "aj"
+    homepage = "http://vaan.fi"
+
+# If Porting existing theme
+[original]
+    author =  "spf13"
+    homepage = "http://spf13.com"
+    repo = "https://github.com/spf13/hyde"
