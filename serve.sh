@@ -1,1 +1,1 @@
-hugo server -t aj -w
+hugo server -t aj -w -D
