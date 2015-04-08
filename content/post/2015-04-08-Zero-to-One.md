@@ -1,6 +1,6 @@
 +++
 date = "2015-04-08T20:40:30+03:00"
-draft = true
+draft = false
 title = "Kirja: \"Zero to One: Notes on Startups, or How to Build the Future\""
 slug = "Kirja: Zero-to-One"
 +++
