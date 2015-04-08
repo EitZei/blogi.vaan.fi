@@ -10,6 +10,10 @@
     <h1>{{ .Title }}</h1>
     <span class="post-date">{{ .Date.Format "2.1.2006" }}</span>
         {{ .Content }}
+
+    <p>
+      Kommentoitavaa? <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">@{{ .Site.Params.TwitterUsername }}</a>
+    </p>
   </div>
 
   <a href="{{ .Site.BaseUrl }}">&laquo; Etusivulle</a>
