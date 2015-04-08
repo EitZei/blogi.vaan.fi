@@ -2,6 +2,9 @@ baseurl = "http://blogi.vaan.fi"
 languageCode = "fi-fi"
 title = "Antti vaan"
 
+[author]
+  name = "Antti Järvinen"
+
 [permalinks]
   post = "/:year/:month/:slug/"
 
