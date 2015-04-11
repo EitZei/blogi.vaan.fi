@@ -1,5 +1,4 @@
 {{ partial "head.html" . }}
-<body>
 
 {{ partial "sidebar.html" . }}
 
@@ -17,12 +16,11 @@
     <span class="post-date">{{ .Date.Format "2.1.2006" }}</span>
 
     {{ .Content }}
+
+    {{ partial "share.html" . }}
   </div>
   {{ end }}
 </div>
 </div>
 
-  </body>
-
 {{ partial "tail.html" . }}
-</html>

@@ -1,5 +1,4 @@
 {{ partial "head.html" . }}
-<body>
 
 {{ partial "sidebar.html" . }}
 
@@ -12,12 +11,13 @@
         {{ .Content }}
 
     <p>
-      Kommentoitavaa? <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">@{{ .Site.Params.TwitterUsername }}</a>
+      <em>{{ .Site.Author.name }}, <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">@{{ .Site.Params.TwitterUsername }}</a></em>
     </p>
+
+    {{ partial "share.html" . }}
   </div>
 
   <a href="{{ .Site.BaseUrl }}">&laquo; Etusivulle</a>
 </div>
 
-  </body>
-</html>
+{{ partial "tail.html" . }}
