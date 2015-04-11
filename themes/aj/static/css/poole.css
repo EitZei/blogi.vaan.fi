@@ -76,6 +76,11 @@ a:focus {
   text-decoration: underline;
 }
 
+a.no-hover:hover,
+a.no-hover:focus {
+  text-decoration: none;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
