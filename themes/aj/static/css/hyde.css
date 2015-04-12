@@ -104,10 +104,13 @@ a.sidebar-nav-item:focus {
  */
 
 .twitter-share-button, .fb-share-button {
+  display: inline-block;
+  height: 20px;
+  vertical-align: bottom;
 }
 
 .fb-share-button {
-  top: -9px;
+  line-height: 20px;
 }
 
 /* Sticky sidebar
