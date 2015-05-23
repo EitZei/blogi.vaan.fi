@@ -18,3 +18,7 @@ title = "Antti vaan"
   Mail = "antti@vaan.fi"
   AnotherWebsiteUrl = "http://alupark.fi"
   AnotherWebsiteName = "Alupark Oy"
+
+[taxonomies]
+  kategoria = "kategoriat"
+  kurssi = "kurssit"

@@ -17,6 +17,15 @@
 
     {{ .Content }}
 
+    <p>
+      Kategoriat:
+      <em>
+        {{ range .Params.kategoriat }}
+          <a href="/kategoriat/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </em>
+    </p>
+
     {{ partial "share.html" . }}
   </div>
   {{ end }}

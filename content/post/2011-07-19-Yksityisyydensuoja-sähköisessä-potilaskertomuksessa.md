@@ -3,7 +3,7 @@ date = "2011-07-19T12:13:05+03:00"
 draft = false
 title = "Yksityisyydensuoja sähköisessä sairaskertomuksessa"
 slug = "Yksityisyydensuoja sairaskertomuksessa"
-
+kategoriat = ["Muut"]
 +++
 
 *Tämä blogikirjoitus on siirretty aiemmasta blogistani "Esson baari".*

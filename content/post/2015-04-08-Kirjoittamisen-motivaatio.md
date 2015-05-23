@@ -2,6 +2,7 @@
 date = "2015-04-08T20:30:30+03:00"
 draft = false
 title = "Kirjoittamisen motivaatio"
+kategoriat = ["Muut"]
 +++
 
 Päätin aloittaa blogin pitämisen. Viimeksi tein näin kesällä 2011 ja tuloksena syntyi [Esson baari](http://essonbaari.blogspot.fi), jonka molemmat kirjoitukset nyt siirsin tämän blogin pohjaksi. Mihin Esson baari kuoli? Blogin ajatus oli herättää keskustelua IT-alan ongelmista Esson baarin kulmapöydän hengessä. Aika nopeasti kuitenkin tajusin, että yksiääninen kirjoittaminen ei ole keskustelua ja aiheetkin tuntuivat loppuvat heti alkuunsa kesken. Toisaalta tuntui myös hieman tekopyhältä kirjoittaa IT-ongelmista ollen samalla itse IT-alalla.

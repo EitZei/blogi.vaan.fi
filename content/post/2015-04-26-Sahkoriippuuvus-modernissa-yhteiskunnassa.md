@@ -3,6 +3,7 @@ date = "2015-04-26T21:18:30+03:00"
 draft = false
 title = "Kirja: \"Sähköriippuvuus modernissa yhteiskunnassa\""
 slug = "Kirja: Sahkoriippuvuus modernissa yhteiskunnassa"
+kategoriat = ["Kirja-arvostelut"]
 +++
 
 Luin [Turvallisuuskomitean](http://www.turvallisuuskomitea.fi) ja [Puolustusministeriön](http://www.defmin.fi) helmikuussa julkaiseman "[Sähköriippuvuus modernissa yhteiskunnassa](http://www.turvallisuuskomitea.fi/index.php/fi/materiaalia/julkaisut/saehkoeriippuvuus-modernissa-yhteiskunnassa)".

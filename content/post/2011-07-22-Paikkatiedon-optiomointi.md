@@ -3,7 +3,7 @@ date = "2011-07-22T17:44:30+03:00"
 draft = false
 title = "Paikkatieto ja sisällön optimointi käyttäjälle"
 slug = "Paikkatieto ja optimointi"
-
+kategoriat = ["Muut"]
 +++
 
 *Tämä blogikirjoitus on siirretty aiemmasta blogistani "Esson baari".*

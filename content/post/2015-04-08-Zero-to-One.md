@@ -3,6 +3,7 @@ date = "2015-04-08T20:40:30+03:00"
 draft = false
 title = "Kirja: \"Zero to One: Notes on Startups, or How to Build the Future\""
 slug = "Kirja: Zero-to-One"
+kategoriat = ["Kirja-arvostelut"]
 +++
 
 *Tämä on tämän blogin ensimmäinen varsinainen kirjoitus. Jos haluat lukea blogin taustoista, niin lue aiempi kirjoitus [Kirjoittamisen motivaatiosta]({{< relref "2015-04-08-Kirjoittamisen-motivaatio.md" >}}).*

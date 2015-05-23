@@ -8,10 +8,20 @@
   <div class="post">
     <h1>{{ .Title }}</h1>
     <span class="post-date">{{ .Date.Format "2.1.2006" }}</span>
-        {{ .Content }}
+
+    {{ .Content }}
 
     <p>
       <em>{{ .Site.Author.name }}, <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">@{{ .Site.Params.TwitterUsername }}</a></em>
+    </p>
+
+    <p>
+      Kategoriat:
+      <em>
+        {{ range .Params.kategoriat }}
+          <a href="/kategoriat/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </em>
     </p>
 
     {{ partial "share.html" . }}
