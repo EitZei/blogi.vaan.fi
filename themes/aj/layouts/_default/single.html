@@ -18,9 +18,7 @@
     <p>
       Kategoriat:
       <em>
-        {{ range .Params.kategoriat }}
-          <a href="/kategoriat/{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
+        {{ range $index, $category := .Params.kategoriat }}{{if $index}},{{end}} <a href="/kategoriat/{{ $category | urlize }}">{{ . }}</a>{{ end }}
       </em>
     </p>
 
