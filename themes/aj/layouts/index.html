@@ -17,12 +17,7 @@
 
     {{ .Content }}
 
-    <p>
-      Kategoriat:
-      <em>
-        {{ range $index, $category := .Params.kategoriat }}{{if $index}},{{end}} <a href="/kategoriat/{{ $category | urlize }}">{{ . }}</a>{{ end }}
-      </em>
-    </p>
+    {{ partial "meta.html" . }}
 
     {{ partial "share.html" . }}
   </div>

@@ -1,0 +1,10 @@
+<p>
+  <i class="fa fa-user"></i> <em>{{ .Site.Author.name }}, <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">@{{ .Site.Params.TwitterUsername }}</a></em>
+</p>
+
+<p>
+  <i class="fa fa-tags"></i> Kategoriat:
+  <em>
+    {{ range $index, $category := .Params.kategoriat }}{{if $index}},{{end}} <a href="/kategoriat/{{ $category | urlize }}">{{ . }}</a>{{ end }}
+  </em>
+</p>
